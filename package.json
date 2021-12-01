@@ -1,8 +1,27 @@
 {
-  "name": "rn-template",
+  "name": "@giovanijfc/rn-template",
   "version": "1.0.0",
   "description": "My custom template for projects in React Native.",
-  "repository": "https://github.com/giovanijfc/rn-template.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanijfc/rn-template.git"
+  },
   "author": "Giovani Chiodi <giovanijfc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giovanijfc/rn-template/issues"
+  },
+  "homepage": "https://github.com/giovanijfc/rn-template#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "template",
+    "typescript",
+    "eslint",
+    "typescript",
+    "babel"
+  ]
 }
