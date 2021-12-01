@@ -1,5 +1,5 @@
 {
-  "name": "mtix",
+  "name": "ProjectName",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,10 @@
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@react-native-community/cli": "^6.2.0",
     "react": "17.0.2",
-    "react-native": "0.66.3"
+    "react-native": "0.66.3",
+    "react-native-eject": "^0.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
