@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -16,7 +16,7 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
-const Section: React.FC<{
+const Section: FC<{
   title: string
 }> = ({ children, title }) => {
   const isDarkMode = useColorScheme() === 'dark'
@@ -46,7 +46,7 @@ const Section: React.FC<{
   )
 }
 
-const App = () => {
+const App: FC = () => {
   const isDarkMode = useColorScheme() === 'dark'
 
   const backgroundStyle = {

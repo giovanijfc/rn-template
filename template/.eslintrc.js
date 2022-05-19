@@ -35,6 +35,7 @@ module.exports = {
     'import/no-duplicates': 'warn',
     'no-shadow': 'off',
     radix: 'off',
-    'no-undef': 'off'
+    'no-undef': 'off',
+    'no-unused-vars': 'off'
   }
 }
